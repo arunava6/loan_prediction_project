@@ -63,7 +63,7 @@ After training the model, its performance was evaluated using several key metric
 
 Accuracy: The model achieved an accuracy of approximately 92.88% on the test set, indicating a high level of correctness in its predictions.
 
-F1 Score: The F1 score, which balances precision and recall, was about 82.87%. This shows that the model is effective at identifying both positive and negative cases.
+F1 Score: The F1 score, which balances precision and recall, was about 81.87%. This shows that the model is effective at identifying both positive and negative cases.
 
 Cross-Validation: To ensure the model's stability, 8-fold cross-validation was performed. The results were consistent, with an average accuracy of 92.61% and an F1 score of 81.97%.
 
