@@ -14,13 +14,13 @@ The main objective of this project is to create a model that accurately predicts
 ## Exploratory Data Analysis (EDA)
 The first step in our analysis was to explore the dataset to gain a deeper understanding of its structure and uncover any underlying patterns.
 
-# 1. Data Loading and Initial Assessment:
+# Data Loading and Initial Assessment:
 
 a. The dataset was loaded using pandas, and an initial assessment was conducted to check for any missing values. No missing data was found, ensuring a clean dataset for our analysis.
 
 b. The columns were renamed for better readability (e.g., person_age to age).
 
-# 2. Visualizing Key Relationships:
+# Visualizing Key Relationships:
 
 a. A histogram of the loan_amnt showed that most loan amounts are concentrated in the lower range, with a few larger loans.
 
@@ -33,26 +33,26 @@ d. Another countplot illustrated how home_ownership relates to loan_status, prov
 ## Feature Engineering
 To prepare the data for our machine learning model, several feature engineering techniques were applied:
 
-# 1. One-Hot Encoding:
+# One-Hot Encoding:
 
 Categorical features with multiple distinct values, such as education, home_ownership, and loan_intent, were converted into a numerical format using one-hot encoding. This creates new binary columns for each category, allowing the model to interpret them effectively.
 
-# 2. Label Encoding:
+# Label Encoding:
 
 For binary categorical features like gender and loan_default, label encoding was used. This technique converts categories into numerical values (e.g., 0 and 1), making them suitable for the model.
 
-# 3. Z-Score Standardization:
+# Z-Score Standardization:
 
 Numerical columns, including age, income, emp_exp, and loan_amnt, were standardized using the StandardScaler. This scales the data to have a mean of 0 and a standard deviation of 1, which helps the model perform better by preventing features with larger scales from dominating the learning process.
 
 ## Model Development and Training
 With the data prepared, we moved on to building and training our predictive model.
 
-# 1. Data Splitting:
+# Data Splitting:
 
 The dataset was divided into training and testing sets, with 80% of the data used for training the model and the remaining 20% reserved for testing its performance. The loan_status and credit_score columns were designated as the target variables.
 
-# 2. Model Selection:
+# Model Selection:
 
 A Random Forest Classifier was chosen for this task. This model is well-suited for classification problems and is known for its high accuracy and ability to handle complex datasets.
 
