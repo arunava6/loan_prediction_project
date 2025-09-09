@@ -11,6 +11,8 @@ This project focuses on predicting loan status based on a dataset of loan applic
 ## Project Overview
 The main objective of this project is to create a model that accurately predicts loan outcomes. By analyzing various applicant attributes, we can identify key factors that influence loan approval and build a predictive model to assist in the decision-making process. The dataset used in this project is loan_data.csv.
 
+Dataset Link: [Download](https://github.com/arunava6/loan_prediction_project/raw/refs/heads/main/loan_data.csv)
+
 ## Exploratory Data Analysis (EDA)
 The first step in our analysis was to explore the dataset to gain a deeper understanding of its structure and uncover any underlying patterns.
 
