@@ -34,7 +34,8 @@ c. A countplot was used to examine the relationship between loan_status and loan
 <img width="600" height="400" alt="Screenshot 2025-09-09 230026" src="https://github.com/user-attachments/assets/1afa3820-57e1-4a82-9387-2c78f3c89356" />
 
 d. Another countplot illustrated how home_ownership relates to loan_status, providing insights into how different housing situations affect loan approvals.
-<img width="600" height="400" alt="Screenshot 2025-09-09 230051" src="https://github.com/user-attachments/assets/cf39adf2-10b2-4b3c-ac36-1f4b1ebdb35d" />
+<img width="600" height="400" alt="image" src="https://github.com/user-attachments/assets/9a78c1ae-1a9d-4850-848c-37006056190a" />
+
 
 ## Feature Engineering
 To prepare the data for our machine learning model, several feature engineering techniques were applied:
