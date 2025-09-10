@@ -25,12 +25,16 @@ b. The columns were renamed for better readability (e.g., person_age to age).
 ### Visualizing Key Relationships:
 
 a. A histogram of the loan_amnt showed that most loan amounts are concentrated in the lower range, with a few larger loans.
+<img width="600" height="400" alt="Screenshot 2025-09-09 225911" src="https://github.com/user-attachments/assets/f5233c9c-644b-4fe4-9e1d-3fd094d1d043" />
 
 b. A boxplot comparing loan_int_rate and loan_status revealed that loans with higher interest rates are more likely to be denied.
+<img width="600" height="400" alt="Screenshot 2025-09-09 230003" src="https://github.com/user-attachments/assets/53c5be1f-0e80-4f8a-8243-84eab876042e" />
 
 c. A countplot was used to examine the relationship between loan_status and loan_default. This showed a clear correlation between defaulting on a previous loan and the outcome of the current loan application.
+<img width="600" height="400" alt="Screenshot 2025-09-09 230026" src="https://github.com/user-attachments/assets/1afa3820-57e1-4a82-9387-2c78f3c89356" />
 
 d. Another countplot illustrated how home_ownership relates to loan_status, providing insights into how different housing situations affect loan approvals.
+<img width="600" height="400" alt="Screenshot 2025-09-09 230051" src="https://github.com/user-attachments/assets/cf39adf2-10b2-4b3c-ac36-1f4b1ebdb35d" />
 
 ## Feature Engineering
 To prepare the data for our machine learning model, several feature engineering techniques were applied:
